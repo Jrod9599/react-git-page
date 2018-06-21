@@ -26,3 +26,18 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.centerBox{
+  text-align: center;
+  margin-top: 22%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.progressBarBox{
+  border: solid 2px black;
+}
+
+#pageComplete{
+  width: 10%;
+}
