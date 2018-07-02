@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -20,7 +20,7 @@
 
 .App-intro {
   font-size: large;
-}
+}*/
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -40,4 +40,41 @@
 
 #pageComplete{
   width: 10%;
+}
+
+.profilePic{
+  width: 200px;
+}
+
+.homePage{
+  background-color: #0b0608;
+}
+
+.titleRow{
+  /*background-color: rgb(51, 48,46);*/
+  /*background-color: #0b0608;*/
+  color: white;
+  text-align: center;
+}
+
+.knowledge{
+
+}
+
+.fab, .fas{
+  text-align: center;
+  width: 50%;
+}
+
+.devicon-react-original{
+   animation: App-logo-spin infinite 20s linear;
+}
+
+.devicon-express-original-wordmark{
+  color: white;
+}
+
+.fa-leaf{
+  color: #6db33f;
+  bottom: 3%;
 }

@@ -4,13 +4,16 @@ import logo from './logo.svg';
 import './App.css';
 
 import LoadingPage from './LoadingPage';
+import HomePage from './components/HomePage';
+
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
-          <Route path="/" component={LoadingPage} />
+          <Route exact path="/" component={LoadingPage} />
+          <Route exact path="/HomePage" component={HomePage} />
         </div>
       </Router>
     );
