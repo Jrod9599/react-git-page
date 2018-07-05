@@ -1,0 +1,19 @@
+.projectBox{
+	width: 40%;
+	border-radius: 5px;
+	background-color: gray;
+	display: inline-block;
+	margin-left: 7%;
+	margin-top: 2%;
+	word-wrap: break-word;
+	border: 2px solid gray;
+	position: relative;
+}
+
+.projectPic{
+	/*border: 2px solid blue;*/
+	max-width: 106%;
+	position: relative;
+	right: 3%;
+
+}
