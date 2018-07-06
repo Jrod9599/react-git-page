@@ -10,7 +10,7 @@ class LoadingPage extends React.Component {
 			<div className="centerBox">
 				Page Coming Soon!
 				<div class="progress progressBarBox">
-	  				<div class="progress-bar progress-bar-striped progress-bar-animated" id="pageComplete" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+	  				<div class="progress-bar progress-bar-striped progress-bar-animated" id="pageComplete" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 		)
