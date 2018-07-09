@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={LoadingPage} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={LoadingPage} />
           <Route exact path="/HomePage" component={HomePage} />
         </div>
       </Router>
